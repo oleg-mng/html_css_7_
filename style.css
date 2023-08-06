@@ -335,23 +335,49 @@
 
     }
 
+    .content_upper_text_brand_lower {
+        display: flex;
+        gap: 16px;
+    }
+
+    .content_upper_text_brand {
+        font-size: 44px;
+    }
+
+    .content_upper_text_brand_lux {
+        font-size: 24px;
+    }
+
+    .content_upper_text_brand_fashion {
+        font-size: 24px;
+    }
+
     .content_middle {
-        margin-top: 0px;
+        /* margin-top: 0px;
         display: flex;
         flex-wrap: wrap;
         align-content: flex-start;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: flex-start;
+        align-items: flex-start; */
     }
 
     .content_middle_1 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        /* margin-left: 6%;
+        margin-right: 6%; */
         margin-top: 65px;
         margin-bottom: 19px;
-        padding-left: 19px;
-        padding-right: 19px;
-        width: 100%;
-        gap: 19px;
+
+        /* padding-left: calc(50% - 734px / 2);
+        padding-right: calc(50% - 734px / 2); */
+
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+
         /* display: grid;
         grid-template-columns: 19px 1fr 19px 1fr 19px 1fr 19px;
         gap: 0px; */
@@ -359,12 +385,43 @@
 
     }
 
+    /* .content_middle_1_1{
+        width: 231px;
+        height: 167px;
+
+    }
+    .content_middle_1_2{
+        width: 231px;
+        height: 167px;
+
+    }
+    .content_middle_1_3{
+        width: 231px;
+        height: 167px;
+
+    } */
+
+    /* .center {
+        padding-left: calc(50% - 996px / 2);
+        padding-right: calc(50% - 996px / 2);
+    } */
+
     .content_middle_2 {
-        justify-content: center;
+        margin: 0;
+        padding: 0;
         width: 100%;
-        margin: 0px;
-        margin-left: 16px;
-        margin-right: 16px;
+
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-around;
+
+        /* margin-left: 16px;
+        margin-right: 16px; */
+
+
+        /* align-items: stretch; */
     }
 
 
